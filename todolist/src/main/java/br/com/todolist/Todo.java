@@ -23,6 +23,9 @@ private StatusEnum status = StatusEnum.NOT_STARTED;
         this.status = status;
     }
 
+    public Todo() {
+    }
+
     public Integer getId() {
         return id;
     }
